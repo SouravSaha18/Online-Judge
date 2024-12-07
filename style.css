@@ -1,0 +1,445 @@
+.logo {
+    float: left;
+    width: 580px;
+}
+
+.logo img {
+    float: left;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 70px;
+}
+
+.logo h2 {
+    color: rgb(15, 15, 15);
+    font-size: 32px;
+    margin-bottom: 11px;
+    margin-top: 24px;
+}
+
+.headersection {
+    background-color: var(--backcolor);
+    color: #fff;
+}
+
+.searchbtn {
+    float: right;
+    margin-top: 8px;
+}
+
+.searchbtn input[type="text"] {
+    border: 1px solid var(--bordercol);
+    border-radius: 5px;
+    width: 200px;
+    background: var(--backcolor);
+    font-size: 16px;
+    height: 20px;
+}
+
+.searchbtn input[type="submit"] {
+    border: 1px solid var(--bordercol);
+    border-radius: 5px;
+    font-size: 18px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.searchbtn input[type="submit"]:hover {
+    background-color: var(--headingcol);
+    color: #fff;
+}
+
+.navsection {
+    border: 1px solid var(--bordercol);
+    border-radius: 10px 10px 0 0;
+    min-height: 38px;
+    margin-bottom: 10px;
+}
+
+.navsection ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*border: 1px solid var(--headingcol);*/
+}
+
+.navsection ul li {
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.navsection ul li:first-child {
+    border-left: 0px solid var(--navlicol2);
+}
+
+.navsection ul li:last-child {
+    border-right: 0px solid var(--navlicol);
+}
+
+.navsection ul li a {
+    color: var(--headingcol);
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.navsection ul li a::before {
+    content: "";
+    transition: all 0.5s;
+}
+
+.navsection ul li a:hover::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background: var(--headingcol);
+    top: 85%;
+    left: 10%;
+}
+
+.navsection ul li ul {
+    left: -999999px;
+    position: absolute;
+    z-index: 999;
+}
+
+.navsection ul li:hover ul {
+    left: 0px;
+}
+
+.navsection ul li ul li {
+    background: var(--navbarcol);
+    width: 200px;
+    border-bottom: 1px solid var(--headerback);
+    float: none;
+    border-left: 0px solid var(--navlicol2);
+    border-right: 0px solid var(--navlicol);
+}
+
+.navsection ul li ul li:last-child {
+    border-bottom: 0px solid var(--headerback);
+}
+
+.icon {
+    padding-left: 25px;
+    background: url("images/search-16x16.png") no-repeat left;
+    background-size: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list-container {
+    margin: 0;
+}
+
+.fa-brands {
+    font-size: 30px;
+}
+
+.rounded {
+    padding: 0 !important;
+}
+
+.card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.margin-y {
+    margin: 100px auto !important;
+}
+
+.accordion-button {
+    font-weight: 700 !important;
+
+}
+
+.bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    background-position: center;
+    width: 100% !important;
+    border-radius: 10px !important;
+}
+
+.background {
+    min-height: 90vh;
+    background-color: rgb(0, 0, 0, .6);
+    border-radius: 10px !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+
+/*start m's giant tech */
+
+.div-flex {
+    display: flex;
+
+}
+
+.link-button {
+
+    color: aliceblue;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.div-about {
+    padding: 50px 20px 0 50px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 3%;
+}
+
+
+#div-Myweb {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 27, 27);
+    border: 2px solid #e67e22;
+    color: aliceblue;
+
+}
+
+#div-img {
+    width: 10%;
+    text-align: center;
+    border: 2px solid #e67e22;
+    background-color: rgb(29, 27, 27);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div-search {
+    width: 20%;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e67e22;
+
+}
+
+.padding {
+    padding-top: 20px;
+    padding: 20px 50px;
+
+}
+
+.div-padding {
+    padding: 5% 2.5% 5% 5%;
+}
+
+.div-half-width {
+    width: 50%;
+}
+
+#grid-table {
+    display: grid;
+}
+
+#grid-table table {
+    border: 2px solid gray;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+#grid-table div img {
+    height: 100%;
+    width: 100%;
+}
+
+#inline {
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+
+    margin-bottom: 30px;
+    margin: 20px 50px;
+    gap: 5px;
+}
+
+.margin-end {
+    margin-right: 5%;
+}
+
+.problem-section {
+    display: flex;
+}
+
+.color-blue {
+    color: #345397;
+}
+
+.problem-container {
+    display: flex;
+    width: 70%;
+    margin-right: 5%;
+    border: 5px;
+    /* border-radius: 1em; */
+}
+
+.width {
+    width: 70%;
+}
+
+#grid-table {
+    display: grid;
+}
+
+#grid-table table {
+    border: 2px solid gray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.sidebar-container {
+    width: 25%;
+}
+
+#sidebar {
+    float: right;
+    width: 20em;
+    display: inline;
+    margin: 1em 1em 1em -22em;
+}
+
+.sidebox {
+    margin-bottom: 1.5em;
+}
+
+
+
+.data-table {
+    width: 100%;
+    position: relative;
+}
+
+.datatable table {
+    width: 100%;
+}
+
+.grid-container div {
+    border: 2px solid gray;
+    height: auto;
+    border-radius: 0px;
+
+}
+
+#center {
+    text-align: center;
+}
+
+#grid-table {
+    display: grid;
+}
+
+
+.title {
+    background-color: #2f92b4;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+
+
+
+#align-right {
+    text-align: right;
+}
+
+
+.box-shadow {
+    width: 50%;
+    box-shadow: 1px 1px 10px gray;
+    padding: 50px 20px 50px 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+
+
+
+.box-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+a {
+    color: black;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+
+
+
+form div {
+    text-align: left;
+}
+
+
+.label-direction {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-direction {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.div-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* end m's giant tech */
